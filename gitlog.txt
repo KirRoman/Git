@@ -1,0 +1,37 @@
+commit e49da4864d5a115719cb84d61882719912f5f949
+Author: Kirianov Roman <Kirianov-Roman@yandex.ru>
+Date:   Thu Sep 8 12:45:36 2022 +0300
+
+    Revert "delete 6 rules from README.md"
+    
+    This reverts commit 168bcf0b0dbce28ffb932b87c243915cf6f405b6.
+
+commit 168bcf0b0dbce28ffb932b87c243915cf6f405b6
+Author: Kirianov Roman <Kirianov-Roman@yandex.ru>
+Date:   Thu Sep 8 12:43:40 2022 +0300
+
+    delete 6 rules from README.md
+
+commit 94d5439f0ff8e17d0b0654112774653a95047523
+Author: Kirianov Roman <Kirianov-Roman@yandex.ru>
+Date:   Thu Sep 8 11:21:25 2022 +0300
+
+    .gitignore
+
+commit 8bee12dab90466a86c557350989ed85a5a0bc8dc
+Author: Kirianov Roman <Kirianov-Roman@yandex.ru>
+Date:   Wed Sep 7 13:35:34 2022 +0300
+
+    add tag v1, new(7) rule in README.md
+
+commit 31fc1610894783fbab006ccb91df0dc6a6571396
+Author: Kirianov Roman <Kirianov-Roman@yandex.ru>
+Date:   Wed Sep 7 13:07:10 2022 +0300
+
+    add new(6) rule in README.md
+
+commit 65f36a62c7d6bed874f7c7bfaadf091f40300e65
+Author: Kirianov Roman <Kirianov-Roman@yandex.ru>
+Date:   Wed Sep 7 12:42:06 2022 +0300
+
+    creating file README.md

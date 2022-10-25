@@ -1,0 +1,103 @@
+    1  cd зщ
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd зщ
+    6  ls
+    7  cd git
+    8  ls
+    9  cd [200~
+   10  ~cd s21_millerla
+   11  cd s21_millerla
+   12  ls
+   13  git log
+   14  git add tag v1
+   15  git tag v1
+   16  git log
+   17  git reflog
+   18  echo "7. law" >> README.md
+   19  cat README.md
+   20  git status
+   21  git add README.md
+   22  git status
+   23  git commit -m "add tag v1, new(7) rule in README.md"
+   24  git status
+   25  git push
+   26  cat README.md
+   27  git reset --hard v1
+   28  cat README.md
+   29  git reset --hard 8bee12d
+   30  cat README.md
+   31  git tag v2
+   32  git push origin v1
+   33  git push origin v2
+   34  git log
+   35  echo ".DS_Store" >> .gitignore
+   36  cat .gitignore
+   37  ls
+   38  ls
+   39  ls -f
+   40  touch 123.DS_Store
+   41  ls
+   42  git status
+   43  git add .
+   44  git status
+   45  cat .gitignore
+   46  git status --ignored
+   47  git status
+   48  git reset --hard v2
+   49  ls
+   50  git push origin v1
+   51  git push origin v2
+   52  echo ".DS_Store" >> .gitignore
+   53  ls
+   54  ls -f
+   55  git status
+   56  cat .gitignore
+   57  touch .DS_Store
+   58  git status
+   59  git add .
+   60  git status
+   61  ls
+   62  ls -f
+   63  git commit -m ".gitignore"
+   64  git push
+   65  vi
+   66  cd
+   67  ls
+   68  cd git
+   69  ls
+   70  cd s21_millerla
+   71  git log
+   72  cd git
+   73  cd s21_millerla
+   74  git log
+   75  vi README.md
+   76  cat README.md
+   77  git checkout README.md
+   78  cat README.md
+   79  vi README.md
+   80  cat README.md
+   81  vi README.md
+   82  cat README.md
+   83  git status
+   84  git add README.md
+   85  git status
+   86  git reset HEAD README.md
+   87  git status
+   88  cat README.md
+   89  git checkout README.md
+   90  cat README.md
+   91  vi README.md
+   92  cat README.md
+   93  git status
+   94  git add README.md
+   95  git status
+   96  git commit -m "delete 6 rules from README.md"
+   97  git push
+   98  git revert HEAD
+   99  cat README.md
+  100  git status
+  101  git push
+  102  history -100 > cli-hist.txt
+  103  history > cli-hist.txt
